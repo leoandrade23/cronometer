@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(#111, #333);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #17c23b;
+  padding: 100px;
+  border: 2px solid #17c23b;
+  border-radius: 50px;
+}
+
+.titulo {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.cronometro {
+  font-size: 50px;
+  padding: 10px 0px;
+}
+
+.botoes {
+  padding: 10px 0px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #999;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #17c23b;
+  color: #000;
+}
